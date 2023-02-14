@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+}
+
+.navbar {
+    background-color: #212121;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.navbar li:not(:hover),
+.navbar li {
+    transition: 0.7s;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    color: rgb(212, 212, 212);
+    background-color: #191919;
+}
+
+.homediv {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.whychoosediv {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn:hover{
+    background-color: #f3f3f3;
+    color: black;
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f3f3;
+    transition: all 0.8s;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 25px;
+}
+
+.panel {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #212121;
+    width: 200px;
+    transition: all 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    height: 200px;
+    margin: 10px;
+    max-height: 200px; 
+    overflow-y: auto;
+}
+
+.panel:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+

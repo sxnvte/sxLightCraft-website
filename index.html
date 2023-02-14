@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sxLightCraft</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li onclick="goto('#home')">Home</li>
+            <li onclick="goto('#whychoose')">Why choose</li>
+            <li onclick="goto('#sourcecode')">Source Code</li>
+            <li onclick="goto('#about')">About</li>
+        </ul>
+    </div>
+    <div class="homediv" id="home">
+        <div data-aos="zoom-in"
+            data-aos-duration="950">
+            <h1>sxLightCraft</h1>
+        <h3 style="font-weight: 300;">A simple and open source Minecraft launcher<h3>
+        <a href="dwn" class="btn">Download</a>
+        </div>
+    </div>
+    <div class="whychoosediv" id="whychoose">
+        <div data-aos="zoom-in"
+            data-aos-duration="950">
+            <h2>Why you should choose sxLightCraft</h2>
+            <div class="panel">
+                <h3>Lightweight</h3>
+                <p>sxLightCraft is lightweight<br>it only weights like 24MB!</p>
+            </div>
+            <div class="panel">
+                <h3>Open Source</h3>
+                <p>sxLightCraft is open source!<br>so you can edit code if you want to make launcher act as you want!</p>
+            </div>
+            <div class="panel">
+                <h3>Cracked Accounts</h3>
+                <p>It has offline mode (cracked) account support so if you dont have bought minecraft you can play by setting your user name!</p>
+            </div>
+        </div>
+    </div> 
+
+</body>
+<script>
+    function goto(url) {
+        window.location.href = url;
+    }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
